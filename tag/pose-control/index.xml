@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pose Control | Yalun Wen</title>
+    <link>https://github.com/ywen27G/ywen27G.github.io/tag/pose-control/</link>
+      <atom:link href="https://github.com/ywen27G/ywen27G.github.io/tag/pose-control/index.xml" rel="self" type="application/rss+xml" />
+    <description>Pose Control</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 17 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://github.com/ywen27G/ywen27G.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Pose Control</title>
+      <link>https://github.com/ywen27G/ywen27G.github.io/tag/pose-control/</link>
+    </image>
+    
+    <item>
+      <title>Lockheed Martin dummy Blade polishing demo</title>
+      <link>https://github.com/ywen27G/ywen27G.github.io/project/example/lock/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/ywen27G/ywen27G.github.io/project/example/lock/</guid>
+      <description>&lt;h1 id=&#34;objectives&#34;&gt;Objectives&lt;/h1&gt;
+&lt;p&gt;The goal of this project is to polish a dummy demo whole location and CAD are not given in advance. The demonstrated work includes the scan-and-sand process. Note that the video is just a simple demo since I can not take the real demo video at Lockheed.&lt;/p&gt;
+&lt;h1 id=&#34;demo&#34;&gt;Demo&lt;/h1&gt;
+&lt;p&gt;The demonstration can be found here &lt;a href=&#34;https://www.youtube.com/watch?v=rg1sp4GIonU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;demo video&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Surface scanning and sanding with UR5</title>
+      <link>https://github.com/ywen27G/ywen27G.github.io/project/example/icra/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/ywen27G/ywen27G.github.io/project/example/icra/</guid>
+      <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;A novel robotic surface finishing system, consisting of a robot and an end-effector that includes a force sensor, finishing tool, and proximity laser sensor, is developed in this paper to automate the surface finishing process. The laser sensor is treated as an additional link, and based on it a novel perception system is developed for real-time scanning of the surface that provides the surface profile mesh and the corresponding normal vectors which can be used directly by the robot closed-loop control system for pose tracking. A unique feature of the perception system is that the geometry of the surface profile and normal vectors are all obtained in real-time in the robot base coordinate system, thus eliminating issues such as precise registration of the work piece in the fixture and its location with respect to the robot base coordinates. An impedance-type closed-loop control algorithm is developed for pose tracking. The proposed system and control algorithm are employed to conduct surface finishing experiments on wooden surfaces. A representative sample of the results and measurement images of surface finish are provided to illustrate the capabilities of the robotic surface finishing system&lt;/p&gt;
+&lt;h1 id=&#34;demo&#34;&gt;Demo&lt;/h1&gt;
+&lt;p&gt;The demo can be found here &lt;a href=&#34;https://www.youtube.com/watch?v=W5Bppn1LZsQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;demo video&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>T-RO and IJRR</title>
+      <link>https://github.com/ywen27G/ywen27G.github.io/project/example/tro/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/ywen27G/ywen27G.github.io/project/example/tro/</guid>
+      <description>&lt;h1 id=&#34;objectives&#34;&gt;Objectives&lt;/h1&gt;
+&lt;p&gt;The objective is to control the manipulator to move along a spatial curve that simultaneously achieves constant speed (norm of velocity) of travel and maintains the pre-assigned orientation. The proposed work applies to (1) dexterous manipulation without contact; (2) contact-based operation such as surface finishing. Part of the reason for its difficulty is that the speed and position of the robot end-effector are coupled, and it is not easy to travel along the curve with a constant speed. In addition, the proposed work aims to reduce the tracking error that grows in proportion to the speed. To verify the effectiveness of the proposed method, we further apply the proposed method to perform surface finishing that achieves the following three objectives simultaneously:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(1) The robot tool frame origin converges exponentially to the curve;&lt;/li&gt;
+&lt;li&gt;(2) The robot tool frame moves with constant speed to remove a uniform layer of material;&lt;/li&gt;
+&lt;li&gt;(3) The robot tool frame (one of its direction cosines) tracks the orientation of the surface normal vector field. So the robot can regulate the contact force in the surface normal direction, and this makes sure that the robot can move in the tangential direction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;demo&#34;&gt;Demo&lt;/h1&gt;
+&lt;p&gt;The demo can be found here: &lt;a href=&#34;https://youtu.be/rZCwlJEpCXk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;demo video&lt;/a&gt;. The KUKA iiwa is torque-actuated using the fast research interface. Note that our IJRR paper and T-RO paper employed the same use-cases to test the control algorithms, thus their demos are similar and I only posted the TRO demo here.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Flexiv ball balancing challenge</title>
+      <link>https://github.com/ywen27G/ywen27G.github.io/project/example/ball/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://github.com/ywen27G/ywen27G.github.io/project/example/ball/</guid>
+      <description>&lt;h1 id=&#34;objectives&#34;&gt;Objectives&lt;/h1&gt;
+&lt;p&gt;The goal of this project is to control the motion of the robot end-effector such that the ball on the mounted plate of the robot can track a circle or the company&amp;rsquo;s logo. The position and velocity of the ball on the plate are sensed and estimated based on the force-torque sensor reading. The control development is a specialized MPC design based on my research. The work is implemented using the whole-body control framework, and signals are properly filtered with IIR low-pass filter to achieve precise motion.&lt;/p&gt;
+&lt;h1 id=&#34;demo&#34;&gt;Demo&lt;/h1&gt;
+&lt;p&gt;This can be found on youtube under the flexiv ball balancing challenge. The demo can be found here &lt;a href=&#34;https://www.youtube.com/watch?v=1wckqN5gcuc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;demo video&lt;/a&gt;. Note that the robot shown in the video is running in QNX, and the work was mostly developed and tested under real-time Linux.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

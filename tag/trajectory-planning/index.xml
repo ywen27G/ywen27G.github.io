@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trajectory planning | Yalun Wen</title>
+    <link>https://github.com/ywen27G/ywen27G.github.io/tag/trajectory-planning/</link>
+      <atom:link href="https://github.com/ywen27G/ywen27G.github.io/tag/trajectory-planning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Trajectory planning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 17 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://github.com/ywen27G/ywen27G.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Trajectory planning</title>
+      <link>https://github.com/ywen27G/ywen27G.github.io/tag/trajectory-planning/</link>
+    </image>
+    
+    <item>
+      <title>Application of our IROS and T-ASE paper for HRI study</title>
+      <link>https://github.com/ywen27G/ywen27G.github.io/project/example/pilotstudy/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/ywen27G/ywen27G.github.io/project/example/pilotstudy/</guid>
+      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+&lt;p&gt;This project aims to analyze the human fatigue under perturbation in a human-robot-interaction (HRI) scenario. The use case is to use the robot to pick up the gears (usually heavy) and then deliver them to humans for assembly. I&amp;rsquo;m responsible for robot motion control and system setup under ROS. In addition, we need real-time data acquisition of the camera output (ArUco marker), robotiq gripper, x-sens accelerometer, and LED strips (controlled by Arduino).&lt;/p&gt;
+&lt;h1 id=&#34;setup&#34;&gt;Setup&lt;/h1&gt;
+&lt;p&gt;The human workspace and gear fixture are treated as obstacles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/ywen27G/ywen27G.github.io/images/TASE_1.png&#34; alt=&#34;12312312312&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;demo&#34;&gt;Demo&lt;/h1&gt;
+&lt;p&gt;The demo can be found here &lt;a href=&#34;https://youtu.be/2GB1cCSIu6Q&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;demo video&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The robot position plot is:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/ywen27G/ywen27G.github.io/images/TASE_2.png&#34; alt=&#34;12312312312&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+Note that there are many samples of robot operation modes designed to prevent human operators from getting used to the robot motion. Unfortunately, I can only show the basic mode.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IROS and T-ASE</title>
+      <link>https://github.com/ywen27G/ywen27G.github.io/project/example/t-ase-iros/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/ywen27G/ywen27G.github.io/project/example/t-ase-iros/</guid>
+      <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;Given the desired sequence of discrete waypoints of robot configurations, a set of robot kinematic and dynamic constraints, and a set of obstacles, determine a time and jerk optimal and collision-free trajectory for the robot passing through the given waypoints. Our approach in developing the robot path through the waypoints relies on the orthogonal collocation method where the states are represented with Legendre polynomials in the Barycentric form; the transcription process efficiently converts the continuous-time formulation of the optimal control problem into a discrete non-linear program. In addition, we provide an efficient method for avoiding robot self-collisions (of joints and links) and collisions with workspace obstacles by modeling them as the union of spheres and cylinders in the workspace. The resulting collision-free optimal trajectory provides smooth and constrained motion for the robot passing through all the waypoints in the given prescribed sequence with a constant speed.&lt;/p&gt;
+&lt;h1 id=&#34;demo&#34;&gt;Demo&lt;/h1&gt;
+&lt;p&gt;The proposed work has been accepted to IROS 2021 and conditionally accepted by T-ASE. The demo video can be found here: &lt;a href=&#34;https://youtu.be/_F5Epq3h9ek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;demo video&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

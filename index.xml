@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yalun Wen</title>
+    <link>https://github.com/ywen27G/ywen27G.github.io/</link>
+      <atom:link href="https://github.com/ywen27G/ywen27G.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yalun Wen</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 17 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://github.com/ywen27G/ywen27G.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Yalun Wen</title>
+      <link>https://github.com/ywen27G/ywen27G.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Application of our IROS and T-ASE paper for HRI study</title>
+      <link>https://github.com/ywen27G/ywen27G.github.io/project/example/pilotstudy/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/ywen27G/ywen27G.github.io/project/example/pilotstudy/</guid>
+      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+&lt;p&gt;This project aims to analyze the human fatigue under perturbation in a human-robot-interaction (HRI) scenario. The use case is to use the robot to pick up the gears (usually heavy) and then deliver them to humans for assembly. I&amp;rsquo;m responsible for robot motion control and system setup under ROS. In addition, we need real-time data acquisition of the camera output (ArUco marker), robotiq gripper, x-sens accelerometer, and LED strips (controlled by Arduino).&lt;/p&gt;
+&lt;h1 id=&#34;setup&#34;&gt;Setup&lt;/h1&gt;
+&lt;p&gt;The human workspace and gear fixture are treated as obstacles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/ywen27G/ywen27G.github.io/images/TASE_1.png&#34; alt=&#34;12312312312&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;demo&#34;&gt;Demo&lt;/h1&gt;
+&lt;p&gt;The demo can be found here &lt;a href=&#34;https://youtu.be/2GB1cCSIu6Q&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;demo video&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The robot position plot is:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/ywen27G/ywen27G.github.io/images/TASE_2.png&#34; alt=&#34;12312312312&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+Note that there are many samples of robot operation modes designed to prevent human operators from getting used to the robot motion. Unfortunately, I can only show the basic mode.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IROS and T-ASE</title>
+      <link>https://github.com/ywen27G/ywen27G.github.io/project/example/t-ase-iros/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/ywen27G/ywen27G.github.io/project/example/t-ase-iros/</guid>
+      <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;Given the desired sequence of discrete waypoints of robot configurations, a set of robot kinematic and dynamic constraints, and a set of obstacles, determine a time and jerk optimal and collision-free trajectory for the robot passing through the given waypoints. Our approach in developing the robot path through the waypoints relies on the orthogonal collocation method where the states are represented with Legendre polynomials in the Barycentric form; the transcription process efficiently converts the continuous-time formulation of the optimal control problem into a discrete non-linear program. In addition, we provide an efficient method for avoiding robot self-collisions (of joints and links) and collisions with workspace obstacles by modeling them as the union of spheres and cylinders in the workspace. The resulting collision-free optimal trajectory provides smooth and constrained motion for the robot passing through all the waypoints in the given prescribed sequence with a constant speed.&lt;/p&gt;
+&lt;h1 id=&#34;demo&#34;&gt;Demo&lt;/h1&gt;
+&lt;p&gt;The proposed work has been accepted to IROS 2021 and conditionally accepted by T-ASE. The demo video can be found here: &lt;a href=&#34;https://youtu.be/_F5Epq3h9ek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;demo video&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lockheed Martin dummy Blade polishing demo</title>
+      <link>https://github.com/ywen27G/ywen27G.github.io/project/example/lock/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/ywen27G/ywen27G.github.io/project/example/lock/</guid>
+      <description>&lt;h1 id=&#34;objectives&#34;&gt;Objectives&lt;/h1&gt;
+&lt;p&gt;The goal of this project is to polish a dummy demo whole location and CAD are not given in advance. The demonstrated work includes the scan-and-sand process. Note that the video is just a simple demo since I can not take the real demo video at Lockheed.&lt;/p&gt;
+&lt;h1 id=&#34;demo&#34;&gt;Demo&lt;/h1&gt;
+&lt;p&gt;The demonstration can be found here &lt;a href=&#34;https://www.youtube.com/watch?v=rg1sp4GIonU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;demo video&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>QP control demo</title>
+      <link>https://github.com/ywen27G/ywen27G.github.io/project/example/qp/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/ywen27G/ywen27G.github.io/project/example/qp/</guid>
+      <description>&lt;h1 id=&#34;objectives&#34;&gt;Objectives&lt;/h1&gt;
+&lt;p&gt;The goal of this demo is to demonstrate the use of QP-based control framework to implement the operational space control that deals with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(1) joint-space input limits;&lt;/li&gt;
+&lt;li&gt;(2) operational space singularity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;qp-for-input-limits&#34;&gt;QP for Input limits&lt;/h1&gt;
+&lt;p&gt;The gif demo for the robot to track the red ball under the QP-frame work:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/ywen27G/ywen27G.github.io/images/111.gif&#34; alt=&#34;12312312312&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+The robot position in the operational space versus reference is:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/ywen27G/ywen27G.github.io/images/1_1.png&#34; alt=&#34;12312312312&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+As the following plot demonstrates, the task space velocity is within the limits (green and orange dotted lines)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/ywen27G/ywen27G.github.io/images/1_2.png&#34; alt=&#34;12312312312&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;qp-for-input-limits-1&#34;&gt;QP for Input limits&lt;/h1&gt;
+&lt;p&gt;The goal of this experiment is to show the robot&amp;rsquo;s behavior when the target (red ball) is outside the robot&amp;rsquo;s workspace. This provides a way to show the effect of QP to deal with singularity. An illustration of the target is outside the robot workspace is:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/ywen27G/ywen27G.github.io/images/2_1.png&#34; alt=&#34;12312312312&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+The robot behavior without QP is:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/ywen27G/ywen27G.github.io/images/222.gif&#34; alt=&#34;12312312312&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+Under the QP, the robot behavior is:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/ywen27G/ywen27G.github.io/images/333.gif&#34; alt=&#34;12312312312&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+As demonstrated, the robot behavior under the QP framework behaves much more smoothly than it was before.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Surface scanning and sanding with UR5</title>
+      <link>https://github.com/ywen27G/ywen27G.github.io/project/example/icra/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/ywen27G/ywen27G.github.io/project/example/icra/</guid>
+      <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;A novel robotic surface finishing system, consisting of a robot and an end-effector that includes a force sensor, finishing tool, and proximity laser sensor, is developed in this paper to automate the surface finishing process. The laser sensor is treated as an additional link, and based on it a novel perception system is developed for real-time scanning of the surface that provides the surface profile mesh and the corresponding normal vectors which can be used directly by the robot closed-loop control system for pose tracking. A unique feature of the perception system is that the geometry of the surface profile and normal vectors are all obtained in real-time in the robot base coordinate system, thus eliminating issues such as precise registration of the work piece in the fixture and its location with respect to the robot base coordinates. An impedance-type closed-loop control algorithm is developed for pose tracking. The proposed system and control algorithm are employed to conduct surface finishing experiments on wooden surfaces. A representative sample of the results and measurement images of surface finish are provided to illustrate the capabilities of the robotic surface finishing system&lt;/p&gt;
+&lt;h1 id=&#34;demo&#34;&gt;Demo&lt;/h1&gt;
+&lt;p&gt;The demo can be found here &lt;a href=&#34;https://www.youtube.com/watch?v=W5Bppn1LZsQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;demo video&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>T-RO and IJRR</title>
+      <link>https://github.com/ywen27G/ywen27G.github.io/project/example/tro/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/ywen27G/ywen27G.github.io/project/example/tro/</guid>
+      <description>&lt;h1 id=&#34;objectives&#34;&gt;Objectives&lt;/h1&gt;
+&lt;p&gt;The objective is to control the manipulator to move along a spatial curve that simultaneously achieves constant speed (norm of velocity) of travel and maintains the pre-assigned orientation. The proposed work applies to (1) dexterous manipulation without contact; (2) contact-based operation such as surface finishing. Part of the reason for its difficulty is that the speed and position of the robot end-effector are coupled, and it is not easy to travel along the curve with a constant speed. In addition, the proposed work aims to reduce the tracking error that grows in proportion to the speed. To verify the effectiveness of the proposed method, we further apply the proposed method to perform surface finishing that achieves the following three objectives simultaneously:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(1) The robot tool frame origin converges exponentially to the curve;&lt;/li&gt;
+&lt;li&gt;(2) The robot tool frame moves with constant speed to remove a uniform layer of material;&lt;/li&gt;
+&lt;li&gt;(3) The robot tool frame (one of its direction cosines) tracks the orientation of the surface normal vector field. So the robot can regulate the contact force in the surface normal direction, and this makes sure that the robot can move in the tangential direction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;demo&#34;&gt;Demo&lt;/h1&gt;
+&lt;p&gt;The demo can be found here: &lt;a href=&#34;https://youtu.be/rZCwlJEpCXk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;demo video&lt;/a&gt;. The KUKA iiwa is torque-actuated using the fast research interface. Note that our IJRR paper and T-RO paper employed the same use-cases to test the control algorithms, thus their demos are similar and I only posted the TRO demo here.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Welcome to Wowchemy, the website builder for Hugo</title>
+      <link>https://github.com/ywen27G/ywen27G.github.io/post/getting-started/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://github.com/ywen27G/ywen27G.github.io/post/getting-started/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
+&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-template-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; alt=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The template is mobile first with a responsive design to ensure that your site looks stunning on every device.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%28%23MadeWithWowchemy%20OR%20%23MadeWithAcademic%29&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/hugo-tutorials/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Tutorial&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
+&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans&#34;&gt;&lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Flexiv ball balancing challenge</title>
+      <link>https://github.com/ywen27G/ywen27G.github.io/project/example/ball/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://github.com/ywen27G/ywen27G.github.io/project/example/ball/</guid>
+      <description>&lt;h1 id=&#34;objectives&#34;&gt;Objectives&lt;/h1&gt;
+&lt;p&gt;The goal of this project is to control the motion of the robot end-effector such that the ball on the mounted plate of the robot can track a circle or the company&amp;rsquo;s logo. The position and velocity of the ball on the plate are sensed and estimated based on the force-torque sensor reading. The control development is a specialized MPC design based on my research. The work is implemented using the whole-body control framework, and signals are properly filtered with IIR low-pass filter to achieve precise motion.&lt;/p&gt;
+&lt;h1 id=&#34;demo&#34;&gt;Demo&lt;/h1&gt;
+&lt;p&gt;This can be found on youtube under the flexiv ball balancing challenge. The demo can be found here &lt;a href=&#34;https://www.youtube.com/watch?v=1wckqN5gcuc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;demo video&lt;/a&gt;. Note that the robot shown in the video is running in QNX, and the work was mostly developed and tested under real-time Linux.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://github.com/ywen27G/ywen27G.github.io/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://github.com/ywen27G/ywen27G.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
